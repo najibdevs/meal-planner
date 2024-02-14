@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
       loadQuestion(currentQuestionIndex);
     } else {
       // Display user answers or perform further actions
-      console.log(userAnswers);
+      console.log(userAnswers)
     }
   });
 });
