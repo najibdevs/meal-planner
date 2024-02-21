@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (currentQuestionIndex < questions.length) {
       loadQuestion(currentQuestionIndex);
     } else {
-      // Display user answers or perform further actions
       console.log(userAnswers)
     }
   });
